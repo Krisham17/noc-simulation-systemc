@@ -1,0 +1,60 @@
+# Xilinx ISE build artifacts
+*.bgn
+*.bld
+*.cmd_log
+*.cpj
+*.drc
+*.ngc
+*.ngd
+*.ngr
+*.ncd
+*.par
+*.pad
+*.pcf
+*.ptwx
+*.stx
+*.twx
+*.unroutes
+*.ut
+*.xpi
+_ngo/
+_xmsgs/
+xst/
+xlnx_auto_*
+webtalk*.log
+iseconfig/
+planAhead_run_*/
+
+# Xilinx Vivado
+.Xil/
+vivado*.jou
+vivado*.log
+
+# Quartus build artifacts
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.smsg
+*.summary
+*.pin
+*.sof
+*.pof
+*.jdi
+*.jic
+
+# SystemC build
+*.o
+*.x
+
+# Simulation outputs
+*.vcd
+
+# NOTE: docs/*.syr, docs/*.twr, docs/*_map.mrp are intentionally kept
+# (synthesis and timing reports used in README documentation)
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
